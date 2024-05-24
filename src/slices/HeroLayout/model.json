@@ -1,0 +1,67 @@
+{
+  "id": "hero_layout",
+  "type": "SharedSlice",
+  "name": "HeroLayout",
+  "description": "HeroLayout",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "accent_headline": {
+          "type": "Text",
+          "config": {
+            "label": "Accent Headline",
+            "placeholder": ""
+          }
+        },
+        "call_to_action_field_label": {
+          "type": "Text",
+          "config": {
+            "label": "Call to Action Field Label",
+            "placeholder": ""
+          }
+        },
+        "call_to_action_link": {
+          "type": "Link",
+          "config": {
+            "label": "Call to Action Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
